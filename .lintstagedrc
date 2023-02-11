@@ -1,0 +1,6 @@
+{
+  "src/**/*.js": ["eslint", "prettier --write"],
+  "src/**/*.{jsx,ts,tsx}": ["eslint", "prettier --write"],
+  "src/**/*.{md,html,css}": "prettier --write",
+  "makeTscWorkPlease.michel": "pnpm --package=typescript dlx tsc --noEmit --jsx react-jsx"
+}
