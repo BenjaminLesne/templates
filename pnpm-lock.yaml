@@ -7,6 +7,7 @@ specifiers:
   '@playwright/test': ^1.32.1
   '@symfony/stimulus-bridge': ^3.2.0
   '@symfony/webpack-encore': ^4.0.0
+  '@types/webpack-env': ^1.18.0
   '@typescript-eslint/eslint-plugin': ^5.56.0
   '@typescript-eslint/parser': ^5.56.0
   core-js: ^3.23.0
@@ -29,6 +30,7 @@ devDependencies:
   '@playwright/test': 1.32.1
   '@symfony/stimulus-bridge': 3.2.2_@hotwired+stimulus@3.2.1
   '@symfony/webpack-encore': 4.2.0_7gm77323x24mzldvlr3kjnysyu
+  '@types/webpack-env': 1.18.0
   '@typescript-eslint/eslint-plugin': 5.56.0_2hcjazgfnbtq42tcc73br2vup4
   '@typescript-eslint/parser': 5.56.0_j4766f7ecgqbon3u7zlxn5zszu
   core-js: 3.29.1

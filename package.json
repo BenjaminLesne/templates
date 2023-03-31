@@ -6,6 +6,7 @@
     "@playwright/test": "^1.32.1",
     "@symfony/stimulus-bridge": "^3.2.0",
     "@symfony/webpack-encore": "^4.0.0",
+    "@types/webpack-env": "^1.18.0",
     "@typescript-eslint/eslint-plugin": "^5.56.0",
     "@typescript-eslint/parser": "^5.56.0",
     "core-js": "^3.23.0",
@@ -29,6 +30,6 @@
     "watch": "encore dev --watch",
     "build": "encore production --progress",
     "prepare": "husky install",
-    "test": "tsc && playwright test && ./vendor/bin/phpunit"
+    "test": "tsc --noEmit && playwright test && php bin/phpunit"
   }
 }
